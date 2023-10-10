@@ -1,0 +1,69 @@
+body{
+    background: rgb(9,41,41);
+    background: linear-gradient(86deg, rgba(9,41,41,1) 0%, rgba(113,151,212,1) 0%, rgba(85,213,153,1) 61%, rgba(134,209,108,1) 100%);
+}
+body{
+    text-align: center;
+    background-color: rgba(92, 150, 150, 0);
+    /* height: 100vh; */
+}
+
+
+.center-box {
+    width: 400px; /* Adjust the width as needed */
+    height: auto;
+    background-color: #f0f0f000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.output {
+    width: 100%;
+    height: 100px;
+    background-color: #103b69;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-size: 24px;
+    overflow: hidden;
+    white-space: nowrap; /* Prevent text from wrapping */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+   border-top-right-radius:20px ;
+   border-top-left-radius:20px ;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 0px;
+}
+.nestedb{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.button {
+    padding: 22px;
+    width: 90px;
+    background-color: #081c32;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+}
+.left-cor{
+    border-bottom-left-radius:20px ;
+  
+    
+}
+.right-cor{
+    border-bottom-right-radius:20px ;
+
+
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
